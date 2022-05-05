@@ -10,6 +10,23 @@ window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
+try {
+    window.Popper = require('popper.js').default;
+    window.$ = window.jQuery = require('jquery');
+    window.Swal = require('sweetalert2');
+    window.bootstrap = require('bootstrap');
+    window.Stepper =  require('bs-stepper');
+    require('raphael');
+    require('bootstrap');
+    //require('./plugins/adminlte/adminlte');
+    //require('select2');
+    //require('./plugins/select2-es');
+    window.fileinput  = require('bootstrap-fileinput').default;
+    require('bootstrap-fileinput/js/locales/es');
+    require('bootstrap-fileinput/themes/fas/theme');
+    //require('datatables.net-bs4')();
+} catch (e) {}
+
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting

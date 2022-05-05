@@ -1,0 +1,20 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~sweetalert2/src/sweetalert2.scss';
+//@import "~select2";
+//@import "~@ttskch/select2-bootstrap4-theme/src/select2-bootstrap4";
+@import "~bs-stepper/dist/css/bs-stepper.min.css";
+@import "~bootstrap-fileinput/css/fileinput.min.css";
+
