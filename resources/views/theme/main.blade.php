@@ -10,18 +10,15 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    @include('theme.layouts.partials.nav')
 @show
 
-<body class="hold-transition sidebar-mini layout-fixed">
+<body >
 <div class="wrapper" id="app">
     {{--}} @include('theme.layouts.partials.sidebar'){{--}}
-     <div>
+    @include('theme.layouts.partials.nav')
+     <div class="content">
          @yield('content')
      </div>
-    <div>
-        @yield('aboutUs')
-    </div>
     {{--}} @include('theme.footer')--}}
 </div>
 </body>

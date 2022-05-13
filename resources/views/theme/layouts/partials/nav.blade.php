@@ -14,17 +14,22 @@
         </div>
     </div>
 </nav>/*--}}
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="main-header navbar navbar-expand navbar-white navbar-light text-md">
 <div class="container-fluid">
     <a class="navbar-brand" href="#">Auto Escuela</a>
 
-<div class="collapse navbar-collapse" id="navigation-example-2">
+
+    <ul class="navbar-nav ml-auto">
+        <li>Servicios</li>
+        <li>Planes</li>
+    </ul>
+{{--}}<div class="collapse navbar-collapse" id="navigation-example-2">
     <div class="navbar-nav navbar-right">
         <a href="#" class="btn btn-simple">Servicios</a>
         <a href="#" class="btn btn-simple">Planes</a>
         <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-twitter"></i></a>
         <a href="#" target="_blank" class="btn btn-simple"><i class="fa fa-facebook"></i></a>
     </div>
-</div>
+</div>--}}
 </div>
 </nav>
