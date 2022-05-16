@@ -18,6 +18,11 @@
         text-shadow: 0px 2px 3px rgb(0 0 0 / 22%);
     }
 
+    .icon-card{
+        width: 100px;
+    }
+
+
     /*.map-responsive{
         overflow:hidden;
         padding-bottom: 30%;
@@ -77,81 +82,66 @@
 
     <section id="icons"></section>
     <div class="section landing-section">
-        <div class="container">
+        <div class="container" style="display: flex; flex-flow: row wrap">
                 <div class="row">
                     <div class="col col-md-4 col-sm-12">
-                        <div class="mb-3" style="border-radius: 60px; background-color: #ba8b00">
-                            <div class="icon align-content-center">
-                                <img src="/images/Iconcone.png" class="card-img-top img-fluid" alt="..." style="width: 200px; ">
-                            </div>
-                            <div class="content">
-                                <h3 class="text-center" style="color: #ff7400;font-weight: 700">Rendi con nosotros</h3>
-                                <p class="display-6 text-center">Podés usar nuestros vehículos para rendir el examen de conducir.</p>
-                            </div>
-                        </div>
-                            {{--}}<div class="mb-3">
-                                <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
-                                    <div class="icon">
-                                        <img src="/images/Iconcone.png" class="card-img-top img-fluid" alt="..." style="width: 200px; margin: auto">
-                                    </div>
-                                    <div class="card-body">
-                                        <h3 class="text-center" style="color: #ff7400;font-weight: 700">Rendi con nosotros</h3>
-                                        <h5 class="display-6 text-center">Podés usar nuestros vehículos para rendir el examen de conducir.</h5>
-                                    </div>
+                        <div class="mb-3">
+                            <div class="card">
+                                <img src="/images/Iconcone.png" class="card-img-top img-fluid icon-card " alt="...">
+                                <div class="card-body">
+                                    <h3 class="text-center" style="color: #ff7400;font-weight: 700">Rendi con nosotros</h3>
+                                    <p class="display-6 text-center">Podés usar nuestros vehículos para rendir el examen de conducir.</p>
                                 </div>
-                            </div>--}}
-                    </div>
-
-                    <div class="col col-md-4 col-sm-12">
-                        <div class="mb-3">
-                        <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
-                            <div class="card-img-top">
-                            <img src="/images/iconWheel.png" class="img-fluid" alt="..." style="width: 200px;">
-                            <img src="/images/iconWheel.png" class=" img-fluid" alt="..." style="width: 200px;">
                             </div>
-                            <div class="card-body">
-                                <h3 class="text-center" style="color: #ff7400;font-weight: 700">Doble Comando</h3>
-                                <h5 class="display-6 text-center">Nuestros móviles cuentan con doble comando para tener un total control de la unidad ante cualquier eventualidad.
-                                </h5>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                        <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
-                            <img src="/images/trafficligh.png" class="card-img-top img-fluid" alt="..." style="width: 200px; margin-left: 60px">
-                            <div class="card-body">
-                                <h3 class="text-center" style="color: #ff7400;font-weight: 700">Servicio Puerta a Puerta</h3>
-                                <h5 class="display-6 text-center">Te pasamos a buscar por donde estes sin costo adicional.</h5>
+                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
+                                <img src="/images/iconWheel.png" class="card-img-top img-fluid icon-card" alt="...">
+                                    <div class="card-body">
+                                        <h3 class="text-center" style="color: #ff7400;font-weight: 700">Doble Comando</h3>
+                                        <h5 class="display-6 text-center">Nuestros móviles cuentan con doble comando para tener un total control de la unidad ante cualquier eventualidad.
+                                        </h5>
+                                    </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-12">
+                        <div class="mb-3">
+                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
+                                <img src="/images/trafficligh.png" class="card-img-top img-fluid icon-card" alt="..." >
+                                <div class="card-body">
+                                    <h3 class="text-center" style="color: #ff7400;font-weight: 700">Servicio Puerta a Puerta</h3>
+                                    <h5 class="display-6 text-center">Te pasamos a buscar por donde estes sin costo adicional.</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                        <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
-                            <img src="/images/Iconcone.png" class="card-img-top img-fluid" alt="..." style="width: 200px; margin-left: 60px">
-                            <div class="card-body">
-                                <h3 class="text-center" style="color: #aa4e01;font-weight: 700">Profesionales</h3>
-                                <h5 class="display-6 text-center">Contamos con instructores capacitados que te enseñan a tomar conciencia de
-                                    la responsabilidad de estar al volante.
-                                </h5>
+                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
+                                <img src="/images/Iconcone.png" class="card-img-top img-fluid icon-card" alt="..." >
+                                <div class="card-body">
+                                    <h3 class="text-center" style="color: #aa4e01;font-weight: 700">Profesionales</h3>
+                                    <h5 class="display-6 text-center">Contamos con instructores capacitados que te enseñan a tomar conciencia de
+                                        la responsabilidad de estar al volante.
+                                    </h5>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                        <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
-                            <img src="/images/iconcar.png" class="card-img-top img-fluid" alt="..." style="width: 200px; margin-left: 60px">
-                            <div class="card-body">
-                                <h3 class="text-center" style="color: #aa4e01;font-weight: 700">Caja Automática o Manual</h3>
-                                <h5 class="display-6 text-center">Además de nuestras unidades de caja manual, también contamos con unidades con caja automatica.</h5>
+                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
+                                <img src="/images/iconcar.png" class="card-img-top img-fluid icon-card" alt="..." >
+                                <div class="card-body">
+                                    <h3 class="text-center" style="color: #aa4e01;font-weight: 700">Caja Automática o Manual</h3>
+                                    <h5 class="display-6 text-center">Además de nuestras unidades de caja manual, también contamos con unidades con caja automatica.</h5>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>
