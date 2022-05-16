@@ -20,6 +20,12 @@
 
     .icon-card{
         width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .card-icon{
+        height: 300px;
     }
 
 
@@ -41,7 +47,7 @@
 
 
     <section class="content"></section>
-        <div class="container-fluid" >
+        <div class="container-fluid" style="padding: 0px;/* height: 128px; */margin: 0px;" >
             {{--}}<div class="card bg-dark text-white">
                 <img src="/images/trafico.jpg" class="card-img" alt="...">
                 <div class="card-img-overlay">
@@ -50,10 +56,10 @@
                 </div>
             </div>*/
                 <img src="/images/background.jpg" class="img-fluid"  alt="" style="width: 100%">--}}
-                <div class="landing-header img-fluid" style="background-image: url('../images/autoescuela2.jpg');"  >
-                        <div class="col-md-12">
-                            <p style="font-size: 3.25rem; font-weight: 1000;">AUTO ESCUELA ZS</p>
-                            <h3>Saca tu licencia de conducir con nosotros!</h3>
+                <div class=" img-fluid" style="background-image: url('../images/autoescuela2.jpg');background-size: 100%;background-attachment: fixed;"  >
+                        <div class="col-md-12" style="height: 45vh;">
+                            <p style="font-size: 3.25rem; font-weight: 1000;text-align: center;padding-top: 42px;color: #464646;text-shadow: 1px 1px white;">AUTO ESCUELA ZS</p>
+                            <h3 style="text-align: center;text-shadow:     text-shadow: 1px 1px black;color: white;">Saca tu licencia de conducir con nosotros!</h3>
                         </div>
                 </div>
         </div>
@@ -86,7 +92,7 @@
                 <div class="row">
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                            <div class="card">
+                            <div class="card card-icon shadow-lg p-3 mb-5 bg-white rounded">
                                 <img src="/images/Iconcone.png" class="card-img-top img-fluid icon-card " alt="...">
                                 <div class="card-body">
                                     <h3 class="text-center" style="color: #ff7400;font-weight: 700">Rendi con nosotros</h3>
@@ -97,7 +103,7 @@
                     </div>
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
+                            <div class="card card-icon shadow-lg p-3 mb-5 bg-white rounded" >
                                 <img src="/images/iconWheel.png" class="card-img-top img-fluid icon-card" alt="...">
                                     <div class="card-body">
                                         <h3 class="text-center" style="color: #ff7400;font-weight: 700">Doble Comando</h3>
@@ -109,7 +115,7 @@
                     </div>
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
+                            <div class="card card-icon shadow-lg p-3 mb-5 bg-white rounded" >
                                 <img src="/images/trafficligh.png" class="card-img-top img-fluid icon-card" alt="..." >
                                 <div class="card-body">
                                     <h3 class="text-center" style="color: #ff7400;font-weight: 700">Servicio Puerta a Puerta</h3>
@@ -122,7 +128,7 @@
                 <div class="row ">
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
+                            <div class="card card-icon shadow-lg p-3 mb-5 bg-white rounded" >
                                 <img src="/images/Iconcone.png" class="card-img-top img-fluid icon-card" alt="..." >
                                 <div class="card-body">
                                     <h3 class="text-center" style="color: #aa4e01;font-weight: 700">Profesionales</h3>
@@ -135,8 +141,8 @@
                     </div>
                     <div class="col col-md-4 col-sm-12">
                         <div class="mb-3">
-                            <div class="card" style="border: none; box-shadow: none; background-color: #f8fafc">
-                                <img src="/images/iconcar.png" class="card-img-top img-fluid icon-card" alt="..." >
+                            <div class="card card-icon shadow-lg p-3 mb-5 bg-white rounded">
+                                <img src="/images/iconcar.png" class="card-img-top img-fluid icon-card" alt="..." style="padding-bottom: 10px; padding-top: 15px;">
                                 <div class="card-body">
                                     <h3 class="text-center" style="color: #aa4e01;font-weight: 700">Caja Automática o Manual</h3>
                                     <h5 class="display-6 text-center">Además de nuestras unidades de caja manual, también contamos con unidades con caja automatica.</h5>
@@ -150,6 +156,10 @@
 
 
     {{--}}<section class="services"></section>--}}
+
+<section></section>
+
+
 <section class="bg-light py-5 border-bottom">
 </section>
     <div class="container px-5 my-5">
@@ -164,7 +174,7 @@
                     <div class="card-body p-5">
                         <div class="small text-uppercase fw-bold text-muted">Free</div>
                         <div class="mb-3">
-                            <span class="display-4 fw-bold">5 CLASES</span>
+                            <span class="display-4 fw-bold">$11.700</span>
                         </div>
                         <ul class="list-unstyled mb-4">
                             <li class="mb-2">
